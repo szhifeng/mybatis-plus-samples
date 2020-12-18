@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baomidou.mybatisplus.samples.generator.evaluation.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.baomidou.mybatisplus.samples.generator.evaluation.entity.User">
+        <result column="id" property="id" />
+        <result column="create_by" property="createBy" />
+        <result column="create_date" property="createDate" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_date" property="updateDate" />
+        <result column="remarks" property="remarks" />
+        <result column="del_flag" property="delFlag" />
+        <result column="login_name" property="loginName" />
+        <result column="password" property="password" />
+        <result column="no" property="no" />
+        <result column="name" property="name" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="mobile" property="mobile" />
+        <result column="user_type" property="userType" />
+        <result column="photo" property="photo" />
+        <result column="login_ip" property="loginIp" />
+        <result column="login_date" property="loginDate" />
+        <result column="login_flag" property="loginFlag" />
+        <result column="dept_id" property="deptId" />
+        <result column="unit_id" property="unitId" />
+        <result column="unit_name" property="unitName" />
+        <result column="dept_name" property="deptName" />
+        <result column="sex" property="sex" />
+        <result column="duty_name" property="dutyName" />
+        <result column="duty_code" property="dutyCode" />
+        <result column="id_card" property="idCard" />
+        <result column="level_name" property="levelName" />
+        <result column="level_code" property="levelCode" />
+        <result column="is_leader" property="isLeader" />
+        <result column="is_examine" property="isExamine" />
+        <result column="leader_id" property="leaderId" />
+        <result column="leader_no_name" property="leaderNoName" />
+        <result column="cell_id" property="cellId" />
+        <result column="cell_name" property="cellName" />
+        <result column="group_id" property="groupId" />
+        <result column="group_name" property="groupName" />
+        <result column="evaluator_type" property="evaluatorType" />
+        <result column="is_charge" property="isCharge" />
+        <result column="area_name" property="areaName" />
+        <result column="area_code" property="areaCode" />
+        <result column="is_civil_servant" property="isCivilServant" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        create_by,
+        create_date,
+        update_by,
+        update_date,
+        remarks,
+        del_flag,
+        login_name, password, no, name, email, phone, mobile, user_type, photo, login_ip, login_date, login_flag, dept_id, unit_id, unit_name, dept_name, sex, duty_name, duty_code, id_card, level_name, level_code, is_leader, is_examine, leader_id, leader_no_name, cell_id, cell_name, group_id, group_name, evaluator_type, is_charge, area_name, area_code, is_civil_servant
+    </sql>
+
+</mapper>
